@@ -1032,6 +1032,14 @@ textarea {
 
 /* stack columns on small screen devices
  */
+@media screen and (max-width: 767px){
+    #mainscreen{
+        cursor      : default;
+    }
+    #cursor{
+        display      : none;
+    }
+}
 @media screen and (max-width: 400px) {
     .row .row {
         margin-left  : 0;
