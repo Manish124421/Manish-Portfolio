@@ -74,7 +74,7 @@ const svg = document.querySelector('svg');
                 trigger: ".svg-container",
                 start : 'top top',
                 end: 'bottom bottom',
-                markers: true,
+                // markers: true,
                 scrub:1,
             }
         })
