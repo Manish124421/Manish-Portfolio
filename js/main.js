@@ -355,7 +355,7 @@
         ssScrollSpy();
         ssViewAnimate();
         ssSwiper();
-        ssLightbox();
+        // ssLightbox();
         ssAlertBoxes();
         ssMoveTo();
 
