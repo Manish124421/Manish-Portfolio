@@ -4223,3 +4223,24 @@ img.u-pull-left {
         right : 6vw;
     }
 }
+    @media screen and (max-width: 767px){
+    *{
+        cursor: default;
+    }
+    #mainscreen{
+        cursor      : default;
+    }
+    #cursor{
+        display      : none;
+    }
+    .svg-container{
+        display: none;
+    }
+}
+.svg-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: ;
+    overflow: hidden;
+}
