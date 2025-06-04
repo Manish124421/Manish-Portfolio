@@ -52,3 +52,29 @@ document.addEventListener("mouseenter",function(){
         duration : 0.5,
     })
 })
+const svg = document.querySelector('svg');
+        const path = document.querySelector('path');
+        const pathLength = path.getTotalLength();
+    svg.style.zIndex = "-10";
+        console.log(pathLength);
+
+        gsap.set(path, {
+            strokeDasharray : pathLength ,//depends on value draw line of 10 than leave 10 invisible
+        })
+
+        gsap.fromTo(path,
+        {
+            strokeDashoffset:pathLength,
+        },
+        {
+            strokeDashoffset:0,
+            duration: 5,
+            ease: 'none',
+            scrollTrigger: {
+                trigger: ".svg-container",
+                start : 'top top',
+                end: 'bottom bottom',
+                markers: true,
+                scrub:1,
+            }
+        })
