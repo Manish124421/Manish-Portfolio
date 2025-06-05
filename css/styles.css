@@ -4032,6 +4032,8 @@ img.u-pull-left {
 }
 
 .contact-bottom {
+    position       : relative;
+    z-index        : 10;
     padding-bottom : var(--vspace-3);
     margin-top     : var(--vspace-3);
     border-bottom  : 1px solid var(--color-border);
