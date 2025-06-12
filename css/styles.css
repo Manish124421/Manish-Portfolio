@@ -4254,3 +4254,9 @@ img.u-pull-left {
     position: relative;
     z-index: -5;
 }
+.timeline__desc{
+    padding: 5px;
+    background: #1415166a;
+    backdrop-filter: blur(5px);
+    color: rgb(198, 191, 191);
+}
